@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:\Workshop\WorkshopProject">
+        <classes>
+
+            <class name="TestScripts.RegistrationTest">
+                <methods>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="TestScripts.PlaceOrderTest">
+                <methods>
+                    <include name="placeOrderAsGuestUser"/>
+                </methods>
+            </class>
+            <class name="TestScripts.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="logoutTest"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

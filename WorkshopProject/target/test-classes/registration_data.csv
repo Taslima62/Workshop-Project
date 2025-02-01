@@ -1,0 +1,6 @@
+firstname,lastname,dynamicEmail,telephone,password,confirmPassword,subscribe
+John,Doe,any6463@gmail.com,1234567890,Password123,Password123,Yes
+Matheu,Arthur,any6473@gmail.com,0987654321,Password123,Password123,No
+David,Lam,any6483@gmail.com,1122334455,Password123,Password123,Yes
+Michael,Clark,any6493@gmail.com,5566778899,Password123,Password123,No
+Alice,Smith,any6413@gmail.com,9988776655,Password123,Password123,Yes
