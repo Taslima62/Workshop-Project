@@ -31,6 +31,7 @@ public class PlaceOrderTest extends BaseTest {
             productPage.goToShoppingCartPage();
             cartPage.fillCouponCodeField("3455");
             cartPage.fillShippingTaxesFields("Thailand", "Bangkok", "4345");
+            cartPage.fillGiftCertificateField("asd");
             cartPage.clickCheckout(test);
            // test.pass("Place Order as Guest User successful.");
     } catch (Exception e) {
