@@ -30,7 +30,7 @@ public class CartPage {
     @FindBy(linkText = "Use Gift Certificate")
     private WebElement giftCertArea;
 
-    @FindBy(name = "gift_cert")
+    @FindBy(id = "input-voucher")
     private WebElement giftCertField;
 
 
@@ -77,7 +77,7 @@ public class CartPage {
         postcodeField.sendKeys(code);
     }
     public void fillGiftCertificateField(String cert){
-        scrollToElement(giftCertArea);
+        //scrollToElement(giftCertArea);
         giftCertArea.click();
         WaitUtil.waitUntilElementIsVisible(giftCertField);
         giftCertField.sendKeys(cert);
